@@ -23,7 +23,7 @@
       "menu": [
         {
           "text": "Pricing",
-          "url": "#"
+          "url": "/pricing"
         },
         {
           "text": "Quick Start",
@@ -37,8 +37,7 @@
         {
           "text": "Bốc Phét",
           "url": "/products/bocphet"
-        },
-        
+        }
       ]
     },
     {
