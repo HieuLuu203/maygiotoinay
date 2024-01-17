@@ -5,15 +5,11 @@
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
+      "name": "Sản phẩm",
+      "url": "/products"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
-      "name": "Contact",
+      "name": "Liên hệ",
       "url": "/contact"
     },
     {
@@ -27,7 +23,7 @@
       "menu": [
         {
           "text": "Pricing",
-          "url": "/pricing"
+          "url": "#"
         },
         {
           "text": "Quick Start",
@@ -39,33 +35,22 @@
       "name": "Product",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Bốc Phét",
+          "url": "/products/bocphet"
         },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        }
+        
       ]
     },
     {
-      "name": "Support",
+      "name": "Hỗ trợ",
       "menu": [
         {
           "text": "FAQ",
           "url": "/faq"
         },
         {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "#"
+          "text": "MXH",
+          "url": "/contact"
         }
       ]
     }
