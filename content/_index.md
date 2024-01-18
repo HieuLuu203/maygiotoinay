@@ -1,7 +1,7 @@
 ---
 banner:
   title: MẤY GIỜ TỐI NAY
-  content: Cứ hẹn đi vì kiểu gì cũng vui
+  content: Cứ hẹn đi vì kiểu gì cũng vui!
   image: /images/banner-art.svg
   button:
     label: "Tìm hiểu thêm"
@@ -32,7 +32,7 @@ banner:
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
+  - title: "Sản phẩm ."
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
       - "/images/service-slide-1.png"
