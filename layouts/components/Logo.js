@@ -18,7 +18,7 @@ const Logo = ({ src }) => {
     >
       {src || logo ? (
         <Image
-          width={logo_width * 0.5}
+          width={logo_width * 0.25}
           height={logo_height.replace("px", "" * 2)}
           src={src ? src : logo}
           alt={title}
