@@ -1,7 +1,7 @@
 ---
 banner:
-  title: MẤY GIỜ TỐI NAY
-  content: Cứ hẹn đi vì kiểu gì cũng vui!
+  title: Hãy để những buổi tụ họp của bạn trở thành những cuộc vui bất tận
+  content: Mấy giờ tối nay - "Cứ hẹn đi vì kiểu gì cũng vui"
   image: /images/banner-art.svg
   button:
     label: "Tìm hiểu thêm"
