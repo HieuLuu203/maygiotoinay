@@ -32,8 +32,8 @@ banner:
 
 # services
 services:
-  - title: "Sản phẩm"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Mấy giờ tối nay là..."
+    content: "Người đồng hành trong những buổi tụ tập vui chơi của bạn. Chúng mình mong muốn mang lại sự giải trí, tiếng cười và hỗ trợ bạn tạo nên thật nhiều kỉ niệm đáng nhớ bên cạnh người mình yêu thương"
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
