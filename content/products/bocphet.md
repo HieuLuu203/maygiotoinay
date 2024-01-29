@@ -1,14 +1,15 @@
 ---
-title: How to make toys from old Olarpaper
-description: "Heading example Here is example of hedings. You can use this heading by following markdownify rules."
+title: Bốc Phét
+description: "Bộ bài phù hợp cho nhóm bạn từ 2-8 người"
 image: "/images/blog-2.jpg"
 date: 2022-05-04T05:00:00Z
 draft: false
 ---
+Với cách chơi độc đáo, lôi cuốn cùng hàng loạt các lá bài thú vị, hài hước, Bốc Phét chính là một lựa chọn lý tưởng cho các nhóm bạn thân thiết hoặc nhóm bạn mới quen muốn phả bỏ những rào cản.      
+##### Paragraph
 
-##### Heading example
-
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
+##### Bộ bài phù hợp cho nhóm bạn từ 2-8 người
 
 
 ---

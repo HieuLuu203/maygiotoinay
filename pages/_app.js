@@ -14,7 +14,9 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap`
+      `https://fonts.googleapis.com/css2?family=${pf}${
+        sf ? "&family=" + sf : ""
+      }&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 
@@ -40,6 +42,7 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
+       
         <style
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,

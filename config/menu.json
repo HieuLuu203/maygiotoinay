@@ -19,20 +19,16 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Tìm hiểu",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
+          "text": "Bắt đầu",
           "url": "#"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Sản phẩm",
       "menu": [
         {
           "text": "Bốc Phét",
