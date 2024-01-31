@@ -27,9 +27,17 @@ const Header = () => {
   const [clientWindowHeight, setClientWindowHeight] = useState("");
 
   const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
-  const [padding, setPadding] = useState(30);
+  const [padding, setPadding] = useState(50);
   const [boxShadow, setBoxShadow] = useState(0);
   const [backgroundColor, setBackgroundColor] = useState(255);
+  const [isMobile, setIsMobile] = useState(1);
+
+  useEffect(() => {
+    // Check if the device is a mobile device
+    var isMobileDevice;
+    window.innerWidth <= 768 ? isMobileDevice = true : isMobileDevice = false;
+    setIsMobile(isMobileDevice);
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -103,12 +111,18 @@ const Header = () => {
 
         {/* Menu */}
         <div
-          id="nav-menu"
-          className={`order-3 md:order-1 ${
-            navOpen ? "max-h-[1000px]" : "max-h-0"
-          }`}
-        >
-          <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
+      id="nav-menu"
+      className={`order-3 md:order-1 ${
+        navOpen ? (isMobile ? ("bg-gray-300 translate-x-3/4 transform transition-transform duration-300 ease-in-out") : "max-h-[600px]") : (isMobile ? ("bg-white translate-x-full transform transition-transform duration-300 ease-in-out") : "max-h-0")
+      }`}
+    >
+        {/* <div
+  id="nav-menu"
+  className={`order-3 md:order-1 fixed top-24 left-0 h-56 w-16 bg-gray-200 transform transition-transform duration-300 ease-in-out ${
+    navOpen ? "translate-x-40" : "translate-x-full"
+  }`}
+> */}
+<ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2 pl-4 pr-2 pt-8 pb-4">
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
@@ -147,7 +161,7 @@ const Header = () => {
                 )}
               </React.Fragment>
             ))}
-            {enable && (
+            {/* {enable && (
               <li className="md:hidden">
                 <Link
                   className="btn btn-primary z-0 py-[14px]"
@@ -157,7 +171,7 @@ const Header = () => {
                   {label}
                 </Link>
               </li>
-            )}
+            )} */}
           </ul>
         </div>
 
