@@ -17,6 +17,7 @@ import {
   IoLogoPinterest,
   IoLogoReddit,
   IoLogoRss,
+  IoLogoShopee,
   IoLogoSkype,
   IoLogoSlack,
   IoLogoSnapchat,
@@ -63,6 +64,7 @@ const Social = ({ source, className }) => {
     address,
     skype,
     website,
+    shopee,
   } = source;
   return (
     <ul className={className}>
@@ -413,6 +415,18 @@ const Social = ({ source, className }) => {
             rel="noopener noreferrer nofollow"
           >
             <IoLocation />
+          </a>
+        </li>
+      )}
+      {shopee && (
+        <li className="inline-block">
+          <a
+            aria-label="shopee"
+            href={shopee}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <IoLogoShopee />
           </a>
         </li>
       )}

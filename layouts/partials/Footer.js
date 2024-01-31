@@ -45,10 +45,6 @@ const Footer = () => {
             <Social source={social} className="social-icons mb-8" />
           </div>
         </div>
-        {/* copyright */}
-        <div className="border-t border-border py-6">
-          {markdownify(copyright, "p", "text-sm text-center")}
-        </div>
       </div>
     </footer>
   );
