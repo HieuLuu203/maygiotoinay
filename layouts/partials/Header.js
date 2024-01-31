@@ -113,7 +113,7 @@ const Header = () => {
         <div
       id="nav-menu"
       className={`order-3 md:order-1 ${
-        navOpen ? (isMobile ? ("bg-white translate-x-3/4 transform transition-transform duration-300 ease-in-out") : "max-h-[1000px]") : (isMobile ? ("bg-transparent translate-x-full h-0 transform transition-transform duration-300 ease-in-out") : "-translate-y-5 -translate-x-10 max-h-0")
+        navOpen ? (isMobile ? ("bg-gray-200 translate-x-3/4 transform transition-transform duration-300 ease-in-out") : "max-h-[1000px]") : (isMobile ? ("bg-transparent translate-x-full h-0 transform transition-transform duration-300 ease-in-out") : " -translate-x-10 max-h-0")
       }`}
     >
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
