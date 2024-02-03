@@ -3,10 +3,10 @@ title: "Contact Us"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: How to contact us
+  description: Nếu bạn có bất cứ đánh giá, thắc mắc gì cần giải đáp, hay chỉ đơn thuần muốn gửi gắm những lời nhắn tới Mấy Giờ Tối Nay, đừng ngần ngại liên hệ với chúng mình qua các phương tiện ở bên dưới.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Instagram: @maygiotoinay"
+    - "E-mail: maygiotoinay@gmail.com"
+    - "Tik Tok: mấy giờ tối nay?"
 ---
