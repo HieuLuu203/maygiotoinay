@@ -9,12 +9,12 @@
       "url": "/products"
     },
     {
-      "name": "Liên hệ",
-      "url": "/contact"
+      "name": "Về chúng tôi",
+      "url": "/about-us"
     },
     {
-      "name": "",
-      "url": ""
+      "name": "FAQ",
+      "url": "/faq"
     }
   ],
   "footer": [
@@ -22,7 +22,7 @@
       "name": "Tìm hiểu",
       "menu": [
         {
-          "text": "Bắt đầu",
+          "text": "Về chúng tôi",
           "url": "#"
         }
       ]
@@ -37,14 +37,14 @@
       ]
     },
     {
-      "name": "Hỗ trợ",
+      "name": "Tổng đài MGTN",
       "menu": [
         {
-          "text": "FAQ",
+          "text": "Câu hỏi thường gặp",
           "url": "/faq"
         },
         {
-          "text": "MXH",
+          "text": "Liên hệ",
           "url": "/contact"
         }
       ]

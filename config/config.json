@@ -2,8 +2,8 @@
   "site": {
     "title": "Mấy giờ tối nay",
     "base_url": "/",
-    "favicon": "/images/logo3.png",
-    "logo": "/images/logo3.png",
+    "favicon": "/images/ava1.png",
+    "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
     "logo_text": "Mấy giờ tối nay"
@@ -25,7 +25,7 @@
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "",
-    "copyright": "Designed and Developed By Themefisher"
+    "copyright": "Copyright 2023 MayGioToiNay | All rights reserved"
   },
 
   "metadata": {

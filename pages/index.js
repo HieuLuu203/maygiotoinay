@@ -21,6 +21,14 @@ const Home = ({ frontmatter }) => {
           <div className="row text-center">
             <div className="mx-auto lg:col-10">
               <h1 className="font-primary font-bold">{banner.title}</h1>
+              <Image
+                className="mx-auto mt-12"
+                src={banner.image}
+                width={210}
+                height={78}
+                alt="banner image"
+                priority
+              />
               <p className="mt-4">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
@@ -31,14 +39,7 @@ const Home = ({ frontmatter }) => {
                   {banner.button.label}
                 </Link>
               )}
-              <Image
-                className="mx-auto mt-12"
-                src={banner.image}
-                width={1050}
-                height={390}
-                alt="banner image"
-                priority
-              />
+              
             </div>
           </div>
         </div>

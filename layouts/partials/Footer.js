@@ -35,7 +35,7 @@ const Footer = () => {
             <Link href="/" aria-label="Bigspring">
               <Image
                 src={config.site.logo}
-                width={config.site.logo_width * 0.35}
+                width={config.site.logo_width}
                 height={config.site.logo_height}
                 alt=""
               />
@@ -44,6 +44,10 @@ const Footer = () => {
             {markdownify(footer_content, "p", "mt-3 mb-6")}
             <Social source={social} className="social-icons mb-8" />
           </div>
+        </div>
+        {/* copyright */}
+        <div className="border-t border-border py-6">
+          {markdownify(copyright, "p", "text-sm text-center")}
         </div>
       </div>
     </footer>
