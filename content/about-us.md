@@ -7,11 +7,12 @@ description:
   Đơn vị cung cấp sản phẩm, dịch vụ giải trí mới lạ cho những buổi tụ tập của giới trẻ tại Việt Nam.
 
 sections:
+  - text: ""
   - title: ""
   - image: "/images/tagline.png"
+  
   - text: "Sứ mệnh của MGTN là trở thành người đồng hành trong những buổi tụ tập vui chơi của bạn. Chúng mình mong muốn mang lại sự giải trí, tiếng cười và hỗ trợ bạn tạo nên thật nhiều kỉ niệm đáng nhớ bên cạnh người mình yêu thương."
   - title: "Đội ngũ nhân sự"
-  - text: ""
 members:
   - name: Lưu Minh Hiếu
     position: "Co-Founder, CPO"

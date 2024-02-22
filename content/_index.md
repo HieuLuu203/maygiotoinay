@@ -46,6 +46,7 @@ services:
     images:
       - "/images/test1.png"
       - "/images/test2.png"
+      - "/images/feedback3.png"
     button:
       enable: true
       label: "Khám phá thêm"
