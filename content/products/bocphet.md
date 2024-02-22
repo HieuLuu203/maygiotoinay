@@ -1,7 +1,7 @@
 ---
 title: Bốc Phét
 description: "Với cách chơi độc đáo, lôi cuốn cùng hàng loạt các lá bài thú vị, hài hước, Bốc Phét chính là một lựa chọn lý tưởng cho các nhóm bạn thân thiết hoặc nhóm bạn mới quen muốn phả bỏ những rào cản."
-image: "/images/ava.jpg"
+image: "/images/ava0.jpg"
 date: 2022-05-04T05:00:00Z
 draft: false
 ---
