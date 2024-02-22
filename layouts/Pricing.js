@@ -18,26 +18,24 @@ function Pricing({ data }) {
               style={{ display: "block" }}
             />
           )}
+
+          {/*section*/}
           <p className="text-center mt-4">{description}</p>
           {sections && sections.map((section, index) => (
               <div key={index} className="mt-8">
                 <div className="container mx-auto max-w-2xl">
+                  {section.text && (
+                    <p className="text-center mt-2 max-w-xl mx-auto"></p>
+                  )}
                   {section.title && (
                     <h2 className="font-bold text-xl text-center">{section.title}</h2>
                   )}
-                  {section.text && (
-                    <p className="text-center mt-2 max-w-xl mx-auto">
-                      {section.text.includes("CHANGE_COLOR") ? (
-                        <>
-                          This part is in <span style={{ color: "red" }}>red</span> color.
-                          {" " + section.text.replace("CHANGE_COLOR", "")}
-                        </>
-                      ) : (
-                        section.text
-                      )}
-                    </p>
+                  {section.image && (
+                  <div className="text-center mt-2">
+                    <img src={section.image} alt={section.title || ''} className="max-w-full" />
+                  </div>
                   )}
-                  {/* You can customize each section with additional content as needed */}
+                  {}
                 </div>
               </div>
             ))}

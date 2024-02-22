@@ -8,9 +8,10 @@ description:
 
 sections:
   - title: ""
+  - image: "/images/tagline.png"
   - text: "Sứ mệnh của MGTN là trở thành người đồng hành trong những buổi tụ tập vui chơi của bạn. Chúng mình mong muốn mang lại sự giải trí, tiếng cười và hỗ trợ bạn tạo nên thật nhiều kỉ niệm đáng nhớ bên cạnh người mình yêu thương."
   - title: "Đội ngũ nhân sự"
-
+  - text: ""
 members:
   - name: Lưu Minh Hiếu
     position: "Co-Founder, CPO"
@@ -19,6 +20,6 @@ members:
     position: "Co-Founder, COO"
     image: "images/1.png"
   - name: Trần Vũ Dũng
-    position: "Co-Founder, CFO"
+    position: "Co-Founder, CMO"
     image: "images/2.png"
 ---

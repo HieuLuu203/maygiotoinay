@@ -10,8 +10,8 @@
   },
 
   "settings": {
-    "pagination": 4,
-    "summary_length": 200,
+    "pagination": 2,
+    "summary_length": 0,
     "blog_folder": "products"
   },
 

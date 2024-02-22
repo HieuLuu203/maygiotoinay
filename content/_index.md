@@ -5,9 +5,8 @@ banner:
   image: /images/ava1.png
   button:
     enable: true
-    label: "Tìm hiểu thêm"
+    label: "Khám phá thêm"
     link: "/about-us"
-
 # # feature
 # feature: 
 #   title: Something You Need To Know
@@ -30,23 +29,32 @@ banner:
 #   - name: "Cloud Support"
 #     icon: "/images/cloud.svg"
 #     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-
 # services
 services:
 
   - title: "Bốc Phét"
     content: 'Một bộ drinking game với lối chơi mới lạ lấy cảm hứng từ trò chơi quen thuộc "Ăn gian nói dối".'
     images: 
-      - "/images/ava.jpg"
+      - "/images/ava0.jpg"
     button:
       enable: true
-      label: Khám phá thêm
+      label: "Khám phá thêm"
+      link: /products/bocphet
+  
+  - title: "Feedback của khách hàng"
+    content:
+    images:
+      - "/images/test1.png"
+      - "/images/test2.png"
+    button:
+      enable: true
+      label: "Khám phá thêm"
       link: /products/bocphet
 
 # workflow
 workflow: 
-  title: "Experience the best workflow with us"
-  image: "/images/banner.svg"
+  title: "Feedback của khách hàng"
+  image: 
   description: ""
 
 
