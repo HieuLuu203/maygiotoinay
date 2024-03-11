@@ -75,7 +75,7 @@ const Home = ({ frontmatter }) => {
                         <Image 
                         src={slide} 
                         alt="" 
-                        width={service?.title != "Feedback của khách hàng" ? 300 : 600} 
+                        width={service?.title != "Feedback của khách hàng" ? 450 : 600} 
                         height={service?.title != "Feedback của khách hàng" ? 250 : 500} 
                         />
                       </SwiperSlide>
