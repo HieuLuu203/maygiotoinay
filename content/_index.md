@@ -35,7 +35,7 @@ services:
   - title: "Bốc Phét"
     content: 'Một bộ drinking game với lối chơi mới lạ lấy cảm hứng từ trò chơi quen thuộc "Ăn gian nói dối".'
     images: 
-      - "/images/product-ava.png"
+      - "/images/product-ava.svg"
     button:
       enable: true
       label: "Khám phá thêm"

@@ -57,7 +57,7 @@ const Home = ({ frontmatter }) => {
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
                 {/* Carousel */}
-                <div className={`service-carousel ${!isOdd && "md:order-2"} justify-center`}>
+                <div className={`service-carousel ${!isOdd && "md:order-2"} justify-center`} style={{ marginTop: service?.title != "Feedback của khách hàng" ? '-30px' : '0px' , marginBottom: '10px' }}>
                   <Swiper
                     modules={[Autoplay, Pagination] }
                     pagination={
