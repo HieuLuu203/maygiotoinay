@@ -57,7 +57,7 @@ const Home = ({ frontmatter }) => {
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
                 {/* Carousel */}
-                <div className={`service-carousel ${!isOdd && "md:order-2"} flex items-center justify-center`}>
+                <div className={`service-carousel ${!isOdd && "md:order-2"} justify-center`}>
                   <Swiper
                     modules={[Autoplay, Pagination] }
                     pagination={
@@ -75,8 +75,8 @@ const Home = ({ frontmatter }) => {
                         <Image 
                         src={slide} 
                         alt="" 
-                        width={service?.title != "Feedback của khách hàng" ? 450 : 600} 
-                        height={service?.title != "Feedback của khách hàng" ? 250 : 500} 
+                        width={service?.title != "Feedback của khách hàng" ? 800 : 600} 
+                        height={service?.title != "Feedback của khách hàng" ? 700 : 500} 
                         />
                       </SwiperSlide>
                     ))}
