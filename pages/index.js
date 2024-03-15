@@ -20,7 +20,7 @@ const Home = ({ frontmatter }) => {
         <div className="container">
           <div className="row text-center">
             <div className="mx-auto lg:col-10">
-              <h1 className="font-primary font-bold">{banner.title}</h1>
+              <h1 className="font-secondary font-bold">{banner.title}</h1>
               <Image
                 className="mx-auto mt-12"
                 src={banner.image}
