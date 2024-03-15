@@ -25,8 +25,10 @@ Mục tiêu của người chơi là "dí" những người khác thực hiện 
 
 ---
 ##### Khách hàng nói gì về Bốc Phét
-![service](/images/feedback1.png "service")
+![service](/images/feedback5.png "service")
 
 _"Mình cảm thấy buổi tụ tập đã trở nên thú vị hơn nhiều với Bốc Phét. Chúng mình đã có những trải nghiệm thực sự mới lạ về drinking game."_
 ![service](/images/feedback2.png "service")
-_"Cách chơi của Bốc Phét thật sự độc đáo. Mình cũng rất ấn tượng với thiết kế sinh động trên từng lá bài. Cảm ơn Bốc Phét đã giúp buổi đi chơi của cả nhóm trở nên vô cùng tuyệt vời"_
+_"Cách chơi của Bốc Phét thật sự độc đáo. Mình cũng rất ấn tượng với thiết kế sinh động trên từng lá bài. Cảm ơn Bốc Phét đã giúp buổi đi chơi của cả nhóm trở nên vô cùng tuyệt vời."_
+![service](/images/feedback4.png "service")
+_"Chúng mình đã được trải nghiệm một lối chơi drinking game hoàn toàn mới. Cả nhóm chắc chắn sẽ thêm Bốc Phét làm “đồ nhắm” ở các buổi tụ tập sau."_
