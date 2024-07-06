@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
 
@@ -37,4 +38,16 @@ const Document = () => {
   );
 };
 
-export default Document;
+export default function Document({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Next.js</title>
+      </head>
+      <body>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
+}
