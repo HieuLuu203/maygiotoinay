@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import Analytics from "@vercel/analytics/react"
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
@@ -6,6 +6,62 @@ import { Head, Html, Main, NextScript } from "next/document";
 const Document = () => {
   // destructuring items from config object
   const { favicon } = config.site;
+  return (
+    <Html lang="en">
+      <Head>
+        {/* favicon *}
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          sizes="32x32"
+          href={favicon}
+        />
+        {/* theme meta *}
+        <meta name="theme-name" content="next-boilerplate" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: light)"
+          content="#fff"
+        />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: dark)"
+          content="#000"
+        />
+      </Head>
+      <body>
+        <Main />
+        {/* <TwSizeIndicator /> *}
+        <NextScript />
+      </body>
+    </Html>
+  );
+};
+
+export default function Document({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Next.js</title>
+      </head>
+      <body>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
+}
+*/
+
+import React from "react";
+import Analytics from "@vercel/analytics/react";
+import config from "@config/config.json";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+
+const MyDocument = () => {
+  const { favicon } = config.site;
+
   return (
     <Html lang="en">
       <Head>
@@ -32,23 +88,13 @@ const Document = () => {
       </Head>
       <body>
         <Main />
-        {/* <TwSizeIndicator /> */}
         <NextScript />
+        <Analytics id="YOUR_ANALYTICS_ID" />
       </body>
     </Html>
   );
 };
 
-export default function Document({ children }) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
+export default MyDocument;
+
+
