@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { markdownify } from "@lib/utils/textConverter";
 import { MDXRemote } from "next-mdx-remote";
 import shortcodes from "./shortcodes/all";
