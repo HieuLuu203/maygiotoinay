@@ -1,4 +1,5 @@
-import { Analytics } from "@vercel/analytics/react"
+import React from "react";
+import Analytics from "@vercel/analytics/react"
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
 
