@@ -39,7 +39,7 @@ const Document = () => {
   );
 };
 
-export default function RootLayout({ children }) {
+export default function Document({ children }) {
   return (
     <html lang="en">
       <head>
