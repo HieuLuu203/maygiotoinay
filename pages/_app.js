@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next'; // Import Analytics từ Vercel
 import config from "@config/config.json";
 import theme from "@config/theme.json";
 import Head from "next/head";
@@ -7,16 +8,13 @@ import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
-
-  // import google font css
   const pf = theme.fonts.font_family.primary;
   const sf = theme.fonts.font_family.secondary;
   const [fontcss, setFontcss] = useState();
+
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
-      }&display=swap`
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""}&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 
@@ -24,14 +22,14 @@ const App = ({ Component, pageProps }) => {
   const tagManagerArgs = {
     gtmId: config.params.tag_manager_id,
   };
+
   useEffect(() => {
-    setTimeout(() => {
-      process.env.NODE_ENV === "production" &&
-        config.params.tag_manager_id &&
+    if (process.env.NODE_ENV === "production" && config.params.tag_manager_id) {
+      setTimeout(() => {
         TagManager.initialize(tagManagerArgs);
-    }, 5000);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+      }, 5000);
+    }
+  }, [tagManagerArgs]);
 
   return (
     <>
@@ -42,7 +40,6 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-       
         <style
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,
@@ -54,12 +51,9 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
-      <div
-        style={{width: '100vw', height: '80px'}}
-      >
-      
-      </div>
+      <div style={{width: '100vw', height: '80px'}}></div>
       <Component {...pageProps} />
+      <Analytics /> {/* Add Analytics component here */}
     </>
   );
 };

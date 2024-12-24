@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react"
 import NotFound from "@layouts/404";
 import Base from "@layouts/Baseof";
 import Contact from "@layouts/Contact";
@@ -66,4 +65,5 @@ export const getStaticProps = async ({ params }) => {
     },
   };
 };
+
 
